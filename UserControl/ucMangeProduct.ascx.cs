@@ -13,5 +13,10 @@ namespace de1.UserControl
         {
 
         }
+
+        protected void ButtonAddNew_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
