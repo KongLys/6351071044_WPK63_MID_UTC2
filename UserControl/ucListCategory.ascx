@@ -2,7 +2,7 @@
 <asp:DataList ID="DataList1" runat="server" DataKeyField="CatID" DataSourceID="ListCategoryEntityDataSource">
     <ItemTemplate>
         <div>
-            <li><asp:HyperLink ID="HyperLink1" runat="server"  Text='<%# Eval("CatName") + "("+ Eval("Courses.Count")+")" %>' NavigateUrl='<%# "~/Category.aspx?id=" + Eval("CatID")%>' ></asp:HyperLink></li>
+            <li><asp:HyperLink ID="HyperLink1" runat="server"  Text='<%# Eval("CatName") + "("+ Eval("Courses.Count")+")" %>' NavigateUrl='<%# "~/Category.aspx?CatId=" + Eval("CatID")%>' ></asp:HyperLink></li>
         </div>                    
     </ItemTemplate>
 </asp:DataList>
