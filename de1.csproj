@@ -94,6 +94,7 @@
     <Content Include="UserControl\ucDetailCourse.ascx" />
     <Content Include="UserControl\ucListCategory.ascx" />
     <Content Include="UserControl\ucListCourseByCategory.ascx" />
+    <Content Include="UserControl\ucMangeProduct.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -191,6 +192,13 @@
     </Compile>
     <Compile Include="UserControl\ucListCourseByCategory.ascx.designer.cs">
       <DependentUpon>ucListCourseByCategory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ucMangeProduct.ascx.cs">
+      <DependentUpon>ucMangeProduct.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\ucMangeProduct.ascx.designer.cs">
+      <DependentUpon>ucMangeProduct.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

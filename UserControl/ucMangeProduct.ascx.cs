@@ -5,16 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace de1
+namespace de1.UserControl
 {
-    public partial class ManageProduct : System.Web.UI.Page
+    public partial class ucMangeProduct : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ButtonAddNew_Click(object sender, EventArgs e)
         {
 
         }
